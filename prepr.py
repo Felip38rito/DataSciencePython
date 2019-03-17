@@ -6,6 +6,8 @@
 
 #%% 
 import pandas as pd
+from sklearn.preprocessing import StandardScaler, Imputer
+
 bcred = pd.read_csv("credit-data.csv")
 bcred.describe()
 
@@ -19,4 +21,7 @@ media = bcred['age'][bcred.age > 0].mean()
 # substituo os incorretos
 bcred.loc[ bcred.age < 0, 'age' ] = media
 
+# bcred.describe()
 
+
+#%%
