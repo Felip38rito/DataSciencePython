@@ -4,5 +4,5 @@
 Este projeto se destina a servir como repositório base a partir do 
 curso de Machine Learning e Data Science com Python
 
-Nota: É sempre importante pensar em como limpar os dados, 
-e fazer esta análise previamente, ao receber os dados de qualquer fonte.
+- É sempre importante pensar em como limpar os dados, e fazer esta análise previamente, ao receber os dados de qualquer fonte.
+- É importante também trabalhar a escala dos dados, para evitar comportamentos estranhos nos outliers. Padronização / Normalização são úteis.
