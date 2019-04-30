@@ -9,4 +9,9 @@
 # $$ P(A|B) = \frac{P(B|A)P(A)}{P(B)} $$
 # O algoritmo monta uma tabela de probabilidades, e gera classificações 
 
+#%%
+import pandas as pd
 
+base = pd.read_csv("risco_credito.csv")
+
+#%%
