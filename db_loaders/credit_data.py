@@ -4,8 +4,9 @@ from __init__ import load_db
 import pandas as pd
 from sklearn.preprocessing import Imputer, StandardScaler
 
+# load_db sempre retorna um dataframe do pandas
 base = load_db("credit-data")
-print(base.head())
+
 # Podemos ver que na base há problemas com idade negativa. Vamos substituir os invalidos e os faltantes com a media (dos validos)
 media_idade = base.loc[ base.age > 0 ].age.mean()
 
