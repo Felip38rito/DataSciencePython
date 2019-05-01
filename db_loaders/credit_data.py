@@ -1,6 +1,6 @@
 # Pre processamento necessario para a base de dados de credito (credit-data.csv)
 # 
-from __init__ import load_db
+from db_loaders import load_db
 import pandas as pd
 from sklearn.preprocessing import Imputer, StandardScaler
 
