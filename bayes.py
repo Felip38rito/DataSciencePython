@@ -19,7 +19,6 @@ modelo = MultinomialNB()
 # Treino a partir do modelo
 modelo.fit(previsores, risco)
 # Predicao a partir do metodo de naive bayes
-# 
 resultado = modelo.predict([[0,0,1,2], [2, 0, 0, 0]])
 
 #%% [markdown]
